@@ -332,7 +332,13 @@ $(document).ready(function() {
         return date.toLocaleDateString('en-US', options);
     };
 
-    members.sort((a, b) => new Date(a.joinDate) - new Date(b.joinDate));
+    members.sort((a, b) => {
+        const dateComparison = new Date(a.joinDate) - new Date(b.joinDate);
+        if (dateComparison === 0) {
+            return a.name.localeCompare(b.name);
+        }
+        return dateComparison;
+    });
 
     members.forEach(member => {
         const countdownElement = document.createElement('div');
