@@ -7,7 +7,7 @@ $(document).ready(function() {
             photo: './Assets/img/amanda.jpg'
         },
         { 
-            name: 'Angelina CHristy',
+            name: 'Angelina Christy',
             gen: 7,
             joinDate: '2018-09-29T00:00:00+07:00', 
             photo: './Assets/img/christy.jpg'
