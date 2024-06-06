@@ -80,14 +80,14 @@ $(document).ready(function() {
         },
         { 
             name: 'Grace Octaviani',
-            gen: 10,
-            joinDate: '2020-07-25T00:00:00+07:00', 
+            gen: 11,
+            joinDate: '2022-10-31T00:00:00+07:00', 
             photo: './Assets/img/gracie.jpg'
         },
         { 
             name: 'Greesella Adhalia',
-            gen: 10,
-            joinDate: '2020-07-25T00:00:00+07:00', 
+            gen: 11,
+            joinDate: '2022-10-31T00:00:00+07:00', 
             photo: './Assets/img/greesel.jpg'
         },
         { 
